@@ -1,0 +1,160 @@
+body {
+    background-color: #0a0a0a;
+    color: #fff;
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-image: url('C:/Users/ADMIN/Desktop/portfolio/images/f1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 25px;
+    background: #1a1a1a;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+}
+
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    text-align: left;
+    font-family: 'Georgia', serif;
+}
+
+.content {
+    max-width: 60%;
+    font-size: 22px;
+}
+
+.cta {
+    background:silver;
+    color: black;
+    border: none;
+    padding: 20px 30px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: 0px 0px 15px #4caf50;
+    font-family: 'Courier New', monospace;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.partners {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Times New Roman', serif;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.logo {
+    background: #1a1a1a;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:/Users/ADMIN/Desktop/portfolio/images/p3.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f2f5;
+    margin: 0;
+    position: relative;
+  }
+  
+  /* Back to Home Button in the Top Right Corner */
+  .back-to-home {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .back-to-home:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* "Glad to Welcome" at the Top Center */
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    
+    text-align: center;
+    margin-top: 20px; /* Push it to the top */
+  }
+  
+  /* Centering Login Container */
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 5px;
+    border-radius: 4px;
+    animation: fadeIn 1s ease-in-out;
+    max-width: 200px;
+    width: 90%;
+    margin: auto; /* Centering */
+    margin-top: 50px; /* Space from the "Glad to Welcome" text */
+  }
+  
+  /* Enlarged Buttons in Center */
+  button {
+    width: 100%;
+    padding: 5px; /* Bigger size */
+    font-size: 25px; /* Larger text */
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: block; /* Ensure it stays centered */
+    margin: 15px auto; /* Space around buttons */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
