@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+   
+    <style>
+        /* Animations */
+        .hero {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+            text-align: center;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            margin: 10px;
+        }
+
+        .cta:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 20px black;
+        }
+
+        .profile-image img {
+            animation: fadeIn 1.5s ease-in-out;
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Centering Content */
+        .content {
+            text-align: center;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .partners {
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Contact Me Hamburger Button */
+        .contact-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: black;
+        }
+
+        .contact-button:hover {
+            color:black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Contact Me Button in Top Right Corner -->
+    
+    <a href="contact.html" class="cta">☰</a>
+
+    <section class="hero">
+        <div class="content">
+            <span>Hiii I'm</span>
+            <h1>Sivadharshini Nandhakumar</h1>
+            <span>A Web Developer</span>
+            <p>"I'm committed to exploring AI's vast potential and leveraging my skills to drive innovation and growth in the tech industry."</p>
+            
+            <a href="view-resume.html" class="cta">Resume</a>
+            <a href="education.html" class="cta">Education</a>
+            <a href="technical.html" class="cta">Skills</a>
+            <a href="projects.html" class="cta">Projects</a>
+        </div>
+
+        
+    </section>
+    
+    <section class="partners">
+        <span>Heartly Welcome to my portfolio!!!</span>
+    </section>
+
+</body>
+</html>
