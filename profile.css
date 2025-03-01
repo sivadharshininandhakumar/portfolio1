@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('C:/Users/ADMIN/Desktop/portfolio/images/p3.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack elements vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f2f5;
+  margin: 0;
+  position: relative;
+}
+
+/* Back to Home Button in the Top Right Corner */
+.back-to-home {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.back-to-home:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* "Glad to Welcome" at the Top Center */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  
+  text-align: center;
+  margin-top: 20px; /* Push it to the top */
+}
+
+/* Centering Login Container */
+.login-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 5px;
+  border-radius: 4px;
+  animation: fadeIn 1s ease-in-out;
+  max-width: 200px;
+  width: 90%;
+  margin: auto; /* Centering */
+  margin-top: 50px; /* Space from the "Glad to Welcome" text */
+}
+
+/* Enlarged Buttons in Center */
+button {
+  width: 100%;
+  padding: 5px; /* Bigger size */
+  font-size: 25px; /* Larger text */
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  display: block; /* Ensure it stays centered */
+  margin: 15px auto; /* Space around buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
